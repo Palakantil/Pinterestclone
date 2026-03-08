@@ -1,0 +1,118 @@
+*{margin:0;padding:0;
+font-family: "Noto Sans", sans-serif;font-size:16px;
+overflow:hidden;}
+
+.cmplt-pg{height:100vh;
+display:flex;}
+                                  
+                             /*sidebar*/
+
+.sidebar{width:5rem;height:100%;
+background-color:white;
+display:flex;flex-direction:column;justify-content:space-between;}
+.icons i{height:2rem;width:4rem;margin-top:2rem;padding-left:0.25rem;
+font-size:1.4rem;}
+.icons img{height:3rem;width:3rem;margin:1rem 0 0 0.9rem ;}
+.setting i{height:4rem;width:4rem;
+font-size:1.5rem;}
+
+                            /*main*/
+
+.main{height:100%;width:100%;
+background-color:white;
+display:flex;flex-direction:column;
+flex:1;}
+
+.navbar{height:5rem;width:100%;
+background-color:white;
+display:flex;
+overflow:hidden;}
+.navbar i{height:2rem;width:3%;margin:2.5rem 0 0 0.5rem;
+font-size:1rem;}
+input[type="text"]:focus{border:2px solid rgb(0, 183, 255);outline:none;}
+input[type="text"]{height:2.5rem;width:85%;padding-left:1rem;margin:1.25rem 0 0 1rem;
+background-color:#f1f1f1;
+border:none;border-radius:10px;
+display:flex;justify-content:center;}
+
+
+
+.nav{height:3rem;width:100%;
+background-color:white;Text-align:bottom;
+/*position:fixed;top:5rem;*/
+display:flex;flex-direction:row;
+overflow:hidden;}
+.libs{height:3rem;margin:1.5rem 1.5rem 0 0.5rem;}
+
+.postgrid{
+background-color:white;
+flex:1;
+overflow-y:scroll;
+display:flex;flex-wrap:wrap;
+}
+/*.container{
+background-color:white;
+display:flex;flex-wrap:wrap;}*/
+.card{width:14rem;margin:0.5rem 0.2rem 0 0.5rem;
+background-color:white;
+border-radius:0.5rem;}
+.card img{width:100%;
+border-radius:0.5rem;}
+.card p{padding-top:0.5rem;color:black;
+font-size:0.75rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar
+.navbar{width:100%;height:5rem;
+background-color:white;
+display:flex;
+
+
+
+.nav{width:100%;height:8rem;
+background-color:blueviolet;}
+
+/*.navbar{width:100%;height:15%;
+background-color:white;
+display:flex;
+position:fixed;top:0;}
+
+
+
+.maingrid{width:100%;height:50%;margin:0;padding:0;
+background-color:rgb(79, 137, 188);
+display:flex;
+overflow-y:scroll;}
+/*.nav{width:100%;height:5%;
+background-color:pink;
+position:fixed;top:5rem;}
+.postgrid{width:100%;height:95%;
+background-color: aquamarine;
+overflow-y:scroll;}*/
+
+
+
+
+
